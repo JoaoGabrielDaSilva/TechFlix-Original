@@ -5,6 +5,7 @@ import Trending from '../pages/Trending'
 import MovieDetails from '../pages/MovieDetails';
 import MovieSearch from '../pages/MovieSearch';
 import Login from '../pages/Login';
+import Header from '../components/Header';
 
 const PrivateRoute = ({component : Component , ...rest}: any) => {
 
@@ -12,7 +13,10 @@ const PrivateRoute = ({component : Component , ...rest}: any) => {
 
   return <Route {...rest} render={props => (
     authenticated ? 
-      <Component {...props } /> 
+    <>
+    <Header />
+    <Component {...props } /> 
+    </>
     : <Redirect to={{ pathname: '/login', state: {from: props.location }}}/>
   )} />
 }
