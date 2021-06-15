@@ -35,7 +35,7 @@ const Login: React.FC = () => {
             <FormInput 
                 name="email" 
                 type="text" 
-                placeholder="Dgite sua email" 
+                placeholder="Digite sua email" 
                 onChange={handleChange} 
                 value={loginData.email}
             />
