@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const signed = localStorage.getItem('signed') === 'true' ? true : false
     setAuthenticated(signed)
-  }, [])
+  }, [authenticated])
 
   return (
     <SearchProvider>
