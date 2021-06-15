@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/TechFlix-Original/trending/static/js/main.7dea8809.chunk.js",
+    "main.js.map": "/TechFlix-Original/trending/static/js/main.7dea8809.chunk.js.map",
+    "runtime-main.js": "/TechFlix-Original/trending/static/js/runtime-main.b634be73.js",
+    "runtime-main.js.map": "/TechFlix-Original/trending/static/js/runtime-main.b634be73.js.map",
+    "static/js/2.0ccfe0a3.chunk.js": "/TechFlix-Original/trending/static/js/2.0ccfe0a3.chunk.js",
+    "static/js/2.0ccfe0a3.chunk.js.map": "/TechFlix-Original/trending/static/js/2.0ccfe0a3.chunk.js.map",
+    "index.html": "/TechFlix-Original/trending/index.html",
+    "static/js/2.0ccfe0a3.chunk.js.LICENSE.txt": "/TechFlix-Original/trending/static/js/2.0ccfe0a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b634be73.js",
+    "static/js/2.0ccfe0a3.chunk.js",
+    "static/js/main.7dea8809.chunk.js"
+  ]
+}
